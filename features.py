@@ -1,3 +1,4 @@
+# Feature engineering for ML model
 import pandas as pd
 
 def build_features(input_file="data/sample.parquet", output_file="data/features.parquet"):
