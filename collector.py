@@ -5,6 +5,7 @@ import psutil
 import pandas as pd
 from datetime import datetime
 
+print("Collector runnning...")
 def sample_processes(interval=2, duration=20, out_file="data/sample.parquet"):
     rows = []
     end_time = time.time() + duration
